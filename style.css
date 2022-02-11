@@ -1,0 +1,71 @@
+body  
+{  
+    background-color:#E5E5E5; 
+}  
+.login{  
+        padding: 20px;
+        background: #FFFFFF;  
+        border-radius: 7px ;  
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-40%,-40%);
+          
+}  
+h2{  
+    font-family: Roboto;
+    font-style: normal;
+    text-align: center;  
+    color: #5714AC; 
+    padding: 20px;  
+}  
+label{  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #5714AC;
+} 
+
+input[type=text], input[type = Password]{
+    width: 392px;
+    height: 45px;
+    left: 560px;
+    top: 435px;
+
+    border: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+input[type = button]{
+    width: 392px;
+    height: 40px;
+    left: 560px;
+    top: 518px;
+    background: #4F00C1;
+    border-radius: 7px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+p{
+   text-align: center;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #000000;
+}
