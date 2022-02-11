@@ -2,28 +2,30 @@
 <html>    
 <head>    
     <title>Login</title>    
-    <link rel="stylesheet" type="text/css" href="style.css">    
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+    <script src="login.js"></script>   
 </head>    
-<body>        
-    <div class="login">    
-    <form id="login" method="get" action="login.php"> 
-        <h2>Infotainly</h2><br>   
-        <label><b>Email     
-        </b>    
-        </label>
-        <br>    
-        <input type="text" name="Email" id="Email" placeholder="Email">    
-        <br><br>    
-        <label><b>Password     
-        </b>    
-        </label>
-        <br>    
-        <input type="Password" name="Pass" id="Pass" placeholder="Password">    
-        <br><br>    
-        <input type="button" name="log" id="log" value="Sign in">       
-        <br><br>   
-        <p>Don’t have an account? <a href="#">Sign up</a> here</p>   
-    </form>     
-</div>    
-</body>    
+    <body>   
+             <!-- Login page  -->
+        <div class="login">    
+            <form id="login" method="get" action="login.php"> 
+                <h2>Infotainly</h2><br>   
+                <label><b>Email     
+                </b>    
+                </label>
+                <br>    
+                <input type="text" name="Email" id="Email" placeholder="Email">    
+                <br><br>    
+                <label><b>Password     
+                </b>    
+                </label>
+                <br>    
+                <input type="Password" name="Pass" id="Pass" placeholder="Password">    
+                <br><br>    
+                <input type="button" name="log" id="log" value="Sign in" onclick="validate()"/>       
+                <br><br>   
+                <p>Don’t have an account? <a href="#">Sign up</a> here</p>   
+            </form>     
+        </div>    
+    </body>    
 </html> 
